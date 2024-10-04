@@ -1,7 +1,7 @@
-CREATE DATABASE libreria;
+CREATE DATABASE IF NOT EXISTS libreria;
 
 USE libreria;
-CREATE TABLE libros (
+CREATE TABLE IF NOT EXISTS libros (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
     descripcion TEXT,
